@@ -1,5 +1,5 @@
 .dj-header__top-bar{
-    border-bottom: 0;
+    border-bottom: none;
 }
 .dj-header .dj-header__top-bar::before {
     background: linear-gradient(to bottom, 
