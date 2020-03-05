@@ -1,5 +1,11 @@
+.dj-header{
+    margin-top: 0;
+}
+
 .dj-header__top-bar{
     border-bottom: none;
+    background: transparent;
+    position: absolute;
 }
 .dj-header .dj-header__top-bar::before {
     background: linear-gradient(to bottom, 
@@ -43,4 +49,14 @@
 
 .dj-header__top-bar .dj-nav-link.dj-nav-link--muted {
     color: white;
+}
+
+.dj-header__top-bar .dj-button--cta{
+    background-color: #ffffff;
+    border-radius: 2px;
+    color: #4285f4;
+    height: auto;
+    line-height: 1;
+    align-self: center;
+    margin-right: 4px;
 }
