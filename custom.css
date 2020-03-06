@@ -1,12 +1,13 @@
-.dj-header{
+.dj-header {
     margin-top: 0;
 }
 
-.dj-header__top-bar{
+.dj-header__top-bar {
     border-bottom: none;
     background: transparent;
     position: absolute;
 }
+
 .dj-header .dj-header__top-bar::before {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.79) 8.1%, rgba(0, 0, 0, 0.761) 15.5%, rgba(0, 0, 0, 0.717) 22.5%, rgba(0, 0, 0, 0.66) 29%, rgba(0, 0, 0, 0.593) 35.3%, rgba(0, 0, 0, 0.518) 41.2%, rgba(0, 0, 0, 0.44) 47.1%, rgba(0, 0, 0, 0.36) 52.9%, rgba(0, 0, 0, 0.282) 58.8%, rgba(0, 0, 0, 0.207) 64.7%, rgba(0, 0, 0, 0.14) 71%, rgba(0, 0, 0, 0.083) 77.5%, rgba(0, 0, 0, 0.039) 84.5%, rgba(0, 0, 0, 0.01) 91.9%, rgba(0, 0, 0, 0) 100%);
     content: "";
@@ -18,20 +19,20 @@
     width: 100%;
 }
 
-.dj-nav-link.dj-nav-link--muted{
+.dj-nav-link.dj-nav-link--muted {
     font-family: "Google Sans", Roboto, Arial, sans-serif;
 }
 
 .dj-nav-bar__item--active {
-        border-bottom-color: white;
-    }
+    border-bottom-color: white;
+}
 
 .dj-header__top-bar .dj-nav-link.dj-nav-link--muted {
     color: white;
 }
 
 /* Top bar CTA (appears on mobile) */
-.dj-header__top-bar .dj-button--cta{
+.dj-header__top-bar .dj-button--cta {
     background-color: #ffffff;
     border-radius: 2px;
     color: #4285f4;
@@ -41,11 +42,20 @@
     margin-right: 4px;
 }
 
+/* Limit accordian and video size */
+.dj-accordion {
+    max-width: 1024px;
+}
+
+.dj-video {
+    max-width: 640px;
+}
+
 /**************** 
   Demo Site Only
 ****************/
 
-.dj-header__top-bar-logo > a > img{
+.dj-header__top-bar-logo>a>img {
     /* Filter for mock site only. Use new white text logo png file on the top bar for the real site  */
     filter: brightness(6);
 }
