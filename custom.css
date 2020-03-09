@@ -44,11 +44,27 @@
 
 /* Limit accordian and video size */
 .dj-accordion {
-    max-width: 1024px;
+    max-width: 900px;
+}
+.dj-accordion__title{
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .dj-video {
     max-width: 640px;
+}
+
+/***************************
+ Live Chat (if implemented) 
+ **************************/
+
+/* If touch device, hide live chat embed since youtube disables it on mobile browsers */
+@media (pointer: coarse){
+    .dj-video__live-chat{
+        display: none;
+    }
 }
 
 /**************** 
